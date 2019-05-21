@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".activity.MapActivity">
+
+    <TextView
+        android:layout_margin="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        android:text="1. Kat Yerleşim Planı\nGitmek İstediğiniz Konumu SeçerekTarif Alabilirsiniz"/>
+
+   <RelativeLayout
+       android:layout_marginTop="60dp"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+       <TextView
+           android:id="@+id/txt1"
+           android:layout_width="100dp"
+           android:layout_height="wrap_content"
+           android:layout_margin="15dp"
+           android:text="E3 101"
+           android:gravity="center"
+           android:background="@drawable/rectangle_soft"
+           android:padding="10dp"/>
+
+       <TextView
+           android:id="@+id/txt2"
+           android:layout_width="100dp"
+           android:layout_height="wrap_content"
+           android:layout_alignTop="@+id/txt1"
+           android:layout_toEndOf="@+id/txt1"
+           android:background="@drawable/rectangle_soft"
+           android:gravity="center"
+           android:padding="10dp"
+           android:text="ID Lab" />
+
+       <TextView
+           android:id="@+id/txt3"
+           android:layout_width="100dp"
+           android:layout_height="wrap_content"
+           android:layout_alignTop="@+id/txt2"
+           android:layout_toEndOf="@+id/txt2"
+           android:background="@drawable/rectangle_soft"
+           android:gravity="center"
+           android:layout_marginLeft="15dp"
+           android:padding="10dp"
+           android:text="102" />
+
+       <TextView
+           android:id="@+id/txt4"
+           android:layout_width="100dp"
+           android:layout_height="wrap_content"
+           android:layout_below="@id/txt1"
+           android:layout_marginLeft="15dp"
+           android:text="102"
+           android:gravity="center"
+           android:background="@drawable/rectangle_soft"
+           android:padding="10dp"/>
+
+       <TextView
+           android:id="@+id/txt5"
+           android:layout_width="100dp"
+           android:layout_height="wrap_content"
+           android:layout_alignTop="@+id/txt4"
+           android:layout_toEndOf="@+id/txt4"
+           android:layout_marginLeft="15dp"
+           android:background="@drawable/rectangle_soft"
+           android:gravity="center"
+           android:padding="10dp"
+           android:text="103" />
+
+       <TextView
+           android:id="@+id/txt6"
+           android:layout_width="100dp"
+           android:layout_height="wrap_content"
+           android:layout_alignTop="@+id/txt5"
+           android:layout_toEndOf="@+id/txt5"
+           android:background="@drawable/rectangle_soft"
+           android:gravity="center"
+           android:layout_marginLeft="15dp"
+           android:padding="10dp"
+           android:text="104" />
+
+
+       <TextView
+           android:id="@+id/txt7"
+           android:layout_width="100dp"
+           android:layout_height="wrap_content"
+           android:layout_below="@id/txt5"
+           android:layout_marginLeft="15dp"
+           android:layout_marginTop="15dp"
+           android:text="105"
+           android:gravity="center"
+           android:background="@drawable/rectangle_soft"
+           android:padding="10dp"/>
+
+       <TextView
+           android:id="@+id/txt8"
+           android:layout_width="100dp"
+           android:layout_height="wrap_content"
+           android:layout_alignTop="@+id/txt7"
+           android:layout_toEndOf="@+id/txt7"
+           android:layout_marginLeft="15dp"
+           android:background="@drawable/rectangle_soft"
+           android:gravity="center"
+           android:padding="10dp"
+           android:text="106" />
+
+       <TextView
+           android:id="@+id/txt9"
+           android:layout_width="100dp"
+           android:layout_height="wrap_content"
+           android:layout_alignTop="@+id/txt8"
+           android:layout_toEndOf="@+id/txt5"
+           android:background="@drawable/rectangle_soft"
+           android:gravity="center"
+           android:layout_marginLeft="15dp"
+           android:padding="10dp"
+           android:text="106 - A" />
+
+       <TextView
+           android:id="@+id/txt10"
+           android:layout_width="100dp"
+           android:layout_height="wrap_content"
+           android:layout_below="@id/txt7"
+           android:layout_marginLeft="15dp"
+           android:layout_marginTop="15dp"
+           android:text="107"
+           android:gravity="center"
+           android:background="@drawable/rectangle_soft"
+           android:padding="10dp"/>
+
+       <TextView
+           android:id="@+id/txt11"
+           android:layout_width="100dp"
+           android:layout_height="wrap_content"
+           android:layout_alignTop="@+id/txt10"
+           android:layout_toEndOf="@+id/txt10"
+           android:layout_marginLeft="15dp"
+           android:background="@drawable/rectangle_soft"
+           android:gravity="center"
+           android:padding="10dp"
+           android:text="107 - A" />
+
+       <TextView
+           android:id="@+id/txt12"
+           android:layout_width="100dp"
+           android:layout_height="wrap_content"
+           android:layout_alignTop="@+id/txt11"
+           android:layout_toEndOf="@+id/txt11"
+           android:background="@drawable/rectangle_soft"
+           android:gravity="center"
+           android:layout_marginLeft="15dp"
+           android:padding="10dp"
+           android:text="108" />
+
+       <TextView
+           android:id="@+id/txt13"
+           android:layout_width="100dp"
+           android:layout_height="wrap_content"
+           android:layout_below="@id/txt10"
+           android:layout_marginLeft="15dp"
+           android:layout_marginTop="15dp"
+           android:text="109"
+           android:gravity="center"
+           android:background="@drawable/rectangle_soft"
+           android:padding="10dp"/>
+
+       <TextView
+           android:id="@+id/txt14"
+           android:layout_width="100dp"
+           android:layout_height="wrap_content"
+           android:layout_alignTop="@+id/txt13"
+           android:layout_toEndOf="@+id/txt13"
+           android:layout_marginLeft="15dp"
+           android:background="@drawable/rectangle_soft"
+           android:gravity="center"
+           android:padding="10dp"
+           android:text="WC" />
+
+       <TextView
+           android:id="@+id/txt15"
+           android:layout_width="100dp"
+           android:layout_height="wrap_content"
+           android:layout_alignTop="@+id/txt14"
+           android:layout_toEndOf="@+id/txt14"
+           android:background="@drawable/rectangle_soft"
+           android:gravity="center"
+           android:layout_marginLeft="15dp"
+           android:padding="10dp"
+           android:text="Asansör" />
+
+
+
+   </RelativeLayout>
+</RelativeLayout>
